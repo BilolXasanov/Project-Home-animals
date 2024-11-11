@@ -1,0 +1,31 @@
+@import url('../fonts.css');
+
+.animals {
+    padding: 100px;
+}
+
+
+.accordion-item {
+    background: rgb(11, 8, 8);
+}
+
+.animals-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

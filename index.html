@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main/accordion.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="header-content">
+            <img src="https://media.istockphoto.com/id/992637094/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81-%D0%B8-%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D1%80%D0%B5%D1%82%D1%80%D0%B8%D0%B2%D0%B5%D1%80.jpg?s=612x612&w=0&k=20&c=14yfT_y67JNU-HrMrRpzIvmQSRzwSyrz60e2Vh52onc="
+                alt="jpg" class="header-content__img">
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="animals">
+            <div class="accordion container" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      CATS
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      DOGS
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      ANIMALS
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="animals-box">
+                <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">DOGS</h5>
+                      <p class="card-text">Got to be able to pick out the easy meat with your eyes closed
+                        Then moving in silently, down wind and out of sight
+                        You got to strike when the moment is right
+                        Without thinking</p>
+                      <a href="#" class="btn btn-primary">Be Get</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuYIhxB55xTnwJZIeSy3LpVm4o9_uVZl6oQ&s" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">CATS</h5>
+                      <p class="card-text"> People really love cats. Cats became domestic animals several thousands years ago. It happened in Egypt. </p>
+                      <a href="#" class="btn btn-primary">Be Get</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Home animals</h5>
+                      <p class="card-text">Got to be able to pick out the easy meat with your eyes closed
+                        Then moving in silently, down wind and out of sight
+                        You got to strike when the moment is right
+                        Without thinking</p>
+                      <a href="#" class="btn btn-primary">Be Get</a>
+                    </div>
+                  </div>
+              </div>
+
+      
+        </section>
+      
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
